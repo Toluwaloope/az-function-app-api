@@ -8,20 +8,20 @@
 ## Get latest from https://github.com/github/gitignore/blob/main/Dotnet.gitignore
 
 # Build results
-[Dd]ebug/
-[Dd]ebugPublic/
-[Rr]elease/
-[Rr]eleases/
-x64/
-x86/
-[Ww][Ii][Nn]32/
-[Aa][Rr][Mm]/
-[Aa][Rr][Mm]64/
-bld/
-[Bb]in/
-[Oo]bj/
-[Ll]og/
-[Ll]ogs/
+src/az-func-app-api/[Dd]ebug/
+src/az-func-app-api/[Dd]ebugPublic/
+src/az-func-app-api/[Rr]elease/
+src/az-func-app-api/[Rr]eleases/
+src/az-func-app-api/x64/
+src/az-func-app-api/x86/
+src/az-func-app-api/[Ww][Ii][Nn]32/
+src/az-func-app-api/[Aa][Rr][Mm]/
+src/az-func-app-api/[Aa][Rr][Mm]64/
+src/az-func-app-api/bld/
+src/az-func-app-api/[Bb]in/
+src/az-func-app-api/Oo]bj/
+src/az-func-app-api/[Ll]og/
+src/az-func-app-api/[Ll]ogs/
 
 # .NET Core
 project.lock.json
@@ -40,6 +40,7 @@ ScaffoldingReadMe.txt
 ~$*
 *~
 CodeCoverage/
+az-func-app-api/
 
 # MSBuild Binary and Structured Log
 *.binlog
