@@ -58,7 +58,7 @@ public class GetCallerInformation
                 }
                 else
                 {   
-                    responseMessage = String.Format("Gotcha!! {0} detected your ip to be {1} and location to be {2}, {3} {4} at Lat: {5}, Long: {6}", nameof(GetCallerInformation), location.Query, location.City, location.RegionName, location.Country, location.Lat, location.Lon);
+                    responseMessage = String.Format("Eau De Play!! {0} detected your ip to be {1} and location to be {2}, {3} {4} at Lat: {5}, Long: {6}", nameof(GetCallerInformation), location.Query, location.City, location.RegionName, location.Country, location.Lat, location.Lon);
 
                 }
             }
