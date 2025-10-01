@@ -37,7 +37,7 @@ public class GetCallerInformation
                  _logger.LogInformation($"Client IP: {ip} from X-Forwarded-For");
 
 
-                if (string.IsNullOrEmpty(ip) || ip == "127.0.0.1" || ip == "::1")
+                if (string.IsNullOrEmpty(ip) || ip == "127.0.0.1" || ip == "::1" || ip == "localhost")
                 {
                     ip = req.HttpContext?.Connection?.RemoteIpAddress?.ToString();
                 }
@@ -72,4 +72,5 @@ public class GetCallerInformation
         return new OkObjectResult(responseMessage);
 
     }
+
 }
