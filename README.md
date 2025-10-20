@@ -1,2 +1,2 @@
 # az-function-app-api
-Using Azure Function App as API
+Using an Azure Function App as API to get the invoking request caller IP information and location.
